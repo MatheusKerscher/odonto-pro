@@ -43,7 +43,7 @@ const NavLinks = ({
         <a key={item.href} href={item.href} className="text-base">
           {item.label}
         </a>
-      )
+      ),
     )}
 
     {isDropdownMenu ? (
