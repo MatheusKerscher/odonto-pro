@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import CardClinic from "@/components/public/cardClinic";
 import Header from "@/components/public/header";
 import Hero from "@/components/public/hero";
@@ -23,6 +24,8 @@ export default function Home() {
           </div>
         </section>
       </main>
+
+      <Footer />
     </>
   );
 }
