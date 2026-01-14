@@ -10,6 +10,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import Logo from "../logo";
 
 const navItems = [{ href: "#professionals", label: "Profissionais" }];
 
@@ -61,11 +62,7 @@ const Header = () => {
     <header className="bg-white shadow p-4 z-10 fixed top-0 left-0 right-0">
       <div className="container mx-auto flex items-center justify-between">
         <section>
-          <h1 className="text-2xl font-bold text-zinc-900">
-            <Link href="/">
-              Odonto<span className="text-emerald-500">PRO</span>
-            </Link>
-          </h1>
+          <Logo />
         </section>
 
         <section>

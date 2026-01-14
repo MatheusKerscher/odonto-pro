@@ -88,3 +88,25 @@
     @apply bg-background text-foreground;
   }
 }
+
+.menu-item {
+  @apply cursor-pointer flex items-center gap-2 w-full p-1 rounded text-sm font-normal transition-all duration-200 ease-in-out;
+}
+
+.menu-item svg {
+  @apply text-emerald-500 transition-colors duration-200;
+}
+
+.menu-item:hover,
+.menu-item_active {
+  @apply bg-emerald-500 text-white;
+}
+
+.menu-item:hover svg,
+.menu-item_active svg {
+  @apply text-white;
+}
+
+.menu-item_collapsed {
+  @apply w-fit;
+}
